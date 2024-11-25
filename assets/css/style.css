@@ -29,9 +29,34 @@ h1 {
     position: fixed;
 }
 
+#hero-part-1 {
+    color: whitesmoke;
+}
+
+
 /* Style the hero yourcourse section */
 .hero3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/yourcourse.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFEBD4;
+    padding: 8rem 0;
+}
+
+/* Style the hero index.html section */
+.hero1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFEBD4;
+    padding: 8rem 0;
+}
+
+/* Style the hero connect section */
+.hero2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,13 +69,18 @@ h1 {
     color: whitesmoke;
 }
 
-footer {
+.btn {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    padding: var(--padding);
+}
+
+.list-unstyled {
+    text-spacing-trim: 0.5em;
+}
+
+footer {
+    background-color: #130a48;
+    color: var(--primary-color);
 }
 
 #custom-contact {
@@ -63,8 +93,4 @@ footer {
 .custom-button {
     background-color: #130a48;
     color: var(--primary-color);
-}
-.logo {
-    margin: 0 auto;
-    width: 5%;
 }
