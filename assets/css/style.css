@@ -42,3 +42,19 @@ footer {
     left: 0;
     padding: var(--padding);
 }
+
+#custom-contact {
+    background-color: #E8B9AB;
+    color: #130a48; 
+    padding: var(--padding);
+    margin: var(--margin);
+}
+
+.custom-button {
+    background-color: #130a48;
+    color: var(--primary-color);
+}
+.logo {
+    margin: 0 auto;
+    width: 10%;
+}
