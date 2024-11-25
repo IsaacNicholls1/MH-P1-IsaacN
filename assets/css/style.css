@@ -67,6 +67,12 @@ h1 {
 .card {
     background-color: #130a48;
     color: whitesmoke;
+    
+}
+
+.custom-card2 {
+    background-color: #130a48;
+    color: whitesmoke;  
 }
 
 .btn {
