@@ -29,6 +29,21 @@ h1 {
     position: fixed;
 }
 
+/* Style the hero yourcourse section */
+.hero3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/yourcourse.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFEBD4;
+    padding: 8rem 0;
+}
+
+.card {
+    background-color: #130a48;
+    color: whitesmoke;
+}
+
 footer {
     background-color: var(--secondary-color);
     color: var(--primary-color);
