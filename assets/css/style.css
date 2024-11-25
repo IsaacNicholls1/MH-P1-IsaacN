@@ -75,7 +75,9 @@ h1 h2 h3 h4 h5 h6{
     background-color: #130a48;
     color: whitesmoke;
     display: flex;
-    margin: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 6px;
 }
 
 .btn {
@@ -106,5 +108,5 @@ footer {
 
 /* Applies rounded corners to images with the 'rounded-image' class. */
 .rounded-image {
-    border-radius: 15px;
+    border-radius: 50px;
 }
