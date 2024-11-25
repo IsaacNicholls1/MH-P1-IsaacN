@@ -21,3 +21,14 @@ body {
 h1 {
     color: var(--secondary-color);
 }
+
+#navbar {
+    background-color: #100A33;
+    color: var(--primary-color);
+    padding: var(--padding);
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
