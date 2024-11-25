@@ -4,7 +4,7 @@
     --primary-color: #ADBCA5;
     --secondary-color: #544B3D;
     --font-size: 16px;
-    --font-family: 'Rethink sans, sans-serif';
+    --font-family: poppins, sans-serif;
     --padding: 10px;
     --margin: 10px;
 }
@@ -14,12 +14,19 @@ body {
     font-size: var(--font-size);
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: 80px;
-    margin: var(--margin);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-h1 {
+
+
+h1 h2 h3 h4 h5 h6{
     color: var(--secondary-color);
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+   
 }
 
 #navbar {
@@ -67,12 +74,8 @@ h1 {
 .card {
     background-color: #130a48;
     color: whitesmoke;
-    
-}
-
-.custom-card2 {
-    background-color: #130a48;
-    color: whitesmoke; 
+    display: flex;
+    margin: 10px;
 }
 
 .btn {
@@ -99,4 +102,9 @@ footer {
 .custom-button {
     background-color: #130a48;
     color: var(--primary-color);
+}
+
+/* Applies rounded corners to images with the 'rounded-image' class. */
+.rounded-image {
+    border-radius: 15px;
 }
