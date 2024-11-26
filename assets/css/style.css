@@ -61,7 +61,7 @@ h1 h2 h3 h4 h5 h6{
     color: #FFEBD4;
     padding: 8rem 0;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 62px;
+    margin-top: 75px;
 }
 
 /* Style the hero index.html section */
@@ -73,7 +73,7 @@ h1 h2 h3 h4 h5 h6{
     color: #FFEBD4;
     padding: 8rem 0;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 58px;
+    margin-top: 70px;
 }
 
 /* Style the hero connect section */
@@ -85,7 +85,7 @@ h1 h2 h3 h4 h5 h6{
     color: #FFEBD4;
     padding: 8rem 0;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 70px;
+    margin-top: 75px;
 }
 
 /* Add margin at the top to prevent content from being covered by the header */
@@ -107,9 +107,6 @@ h1 h2 h3 h4 h5 h6{
     color: whitesmoke;
 }
 
-.list-unstyled {
-    text-spacing-trim: 0.5em;
-}
 
 footer {
     background-color: var(--primary-color);
