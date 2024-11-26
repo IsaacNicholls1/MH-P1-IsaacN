@@ -84,7 +84,7 @@ h1 h2 h3 h4 h5 h6{
 
 /* Add margin at the top to prevent content from being covered by the header */
 .hero { 
-    margin-top: 58px;
+    margin-top: 40px;
 }
 
 .card {
@@ -107,20 +107,26 @@ h1 h2 h3 h4 h5 h6{
 
 footer {
     background-color: var(--primary-color);
-    color: black;
+    color: whitesmoke;
 }
 
 #custom-contact {
     background-color: var(--secondary-color);
     color: whitesmoke; 
     padding: var(--padding);
-    margin: var(--margin);
+    /* Pushed the contact form up above the footer */
+    margin-bottom: 80px;
 }
 
+/* standalone button on contact form */
 .custom-button {
     background-color: #E55812;
     color: black;
+    border: none;
 }
+
+
+
 
 /* Applies rounded corners to images with the 'rounded-image' class. */
 .rounded-image {
