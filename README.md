@@ -75,12 +75,19 @@ This page has used the min() function to fluidly size for many screen sizes at a
  
  ## Wireframes
     
-  - Main Page Wireframe
+  - Home Page Wireframe
   <div align="center">
   <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/2dba9214-6f88-4ed3-97f6-741d84b9ec33" alt="Main page wireframe">
 </div>
 
-  - Article Page Wireframe
+  - Your Course Page Wireframe
+
+  <div align="center">
+  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/9896a627-c591-4829-b0ab-add8ffb007bf" alt="Wireframe">
+  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/9f047ef6-5fb3-4394-8fae-22f964d49008" alt="Wireframe">
+  </div>
+
+  - Connect Page Wireframe
 
   <div align="center">
   <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/9896a627-c591-4829-b0ab-add8ffb007bf" alt="Wireframe">
@@ -95,17 +102,16 @@ This page has used the min() function to fluidly size for many screen sizes at a
 
  ## Logo
 
-- Created by Graeme (Gray) Adamson Logo 1 Logo 2. Used a CSS file and HTML file to create it
-- CSS file is in the assets folder in the CSS sub-folder which were used to generate logo files are logo.css and logo.css
-- Images used are in the assests folder in the logo sub-folder files are Web%20capture_10-1-2024_165527__resized.jpeg (logo) and Web%20capture_10-1-2024_173633__resized.jpeg (logo2)
-- Team decided on logo2
+- Image taken from Pexels.com and resized with squoosh photo editor to make the correct size. 
+- File is in the assets folder, and subolder images. 
+
 - - - -
 # Testing #
 
 ## HTML Validation
 - Initial HTML Validation was performed using the W3C Mark up service and the results can be found in this document. https://docs.google.com/document/d/1bpeozgiIdqKK1ukf-Le-pkrP0iTv6WHeWEdsZ5wpVN4/edit?usp=sharing
-- The missing P element & the duplicate attribute on class in the Guide.html has been resolved.
-- Any issues with the index.html & contact.html page have remained as future fixes.
+- The has been resolved.
+- No Issues with 
   
 ## CSS Validation
 - Initial W3C CSS style sheet validation link https://docs.google.com/document/d/1PLn-LXFHKpIaeiYMOUwEe_7h6ZVjw1cCxucjCS2Kp-w/edit?usp=sharing
@@ -114,24 +120,21 @@ This page has used the min() function to fluidly size for many screen sizes at a
 
 ## Accessibility
 - We entered our website through AccessScan to check we were compliant with with ADA standards. Our website is ADA-compliant as shown below:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/da66d426-6223-48f4-afc3-1a122a9ad6c0)
+![image]()
 
 ## Device Testing
 
-We have tested the site with the following devices:
+I tested the site with the following devices:
 
 - Android Google Pixel 8
 - Desktop
 - Chrome Developer Tools (Simulating for all available device options)
-
-The site functioned mainly as expected but we did have a few teething problems when testing at first. The dropdown menu 
   
 ## Browser Testing
 
 Testing has been done on the following browsers:
 
 - Chrome (& Developer tools)
-- Opera
 - Safari
 
 ## Testing Breakdown
@@ -211,6 +214,10 @@ Site Example:
 - The cards and images inside them were originally 2 across the page with 2 below. I found that while testing this was not condusive to a good UX as they seemed too large. 
 - To fix this issue I made sure that the cards were smaller and all on one line of the page, meaning that the user could more easily see and navigate the page, and it was a calmer experience. 
 
+### Poor Font for User
+
+- When deploying and testing the site I found that the font that was being used was not a good fit for the User. It was too clinical and i felt it needed a rounder and calmer font. To fix this i did some more research and found that a good fit was the Poppins font. 
+
 ## During development and testing, these are the current bugs:
 
 ### Images not sizing correctly on Cards 
@@ -224,7 +231,6 @@ Site Example:
 - The content when deployed on a smaller device reshuffles the image to the bottom of the container.
 - The text in the last paragraph changes to the default font rather than our applied styling in the CSS folder. This is specific to Android.
 
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/ca3315f9-de44-4588-8d92-ac96145639fc)
 - - - -
 # Deployment #
 
