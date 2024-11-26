@@ -83,8 +83,7 @@ This page has used the min() function to fluidly size for many screen sizes at a
   - Your Course Page Wireframe
 
   <div align="center">
-  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/9896a627-c591-4829-b0ab-add8ffb007bf" alt="Wireframe">
-  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/9f047ef6-5fb3-4394-8fae-22f964d49008" alt="Wireframe">
+  ![wireframe-mainpage](../MH-P1-IsaacN/assets/images/rdme-img/Wireframe-Homepage.png)
   </div>
 
   - Connect Page Wireframe
