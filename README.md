@@ -32,12 +32,7 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-
-* [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
 
