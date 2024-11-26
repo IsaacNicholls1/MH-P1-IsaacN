@@ -1,356 +1,281 @@
 
-# Astronauts for Autism
-
-![Astronauts for Autism - Project Banner](/documentation/images/afa-project-banner.webp)
-
-
-<p align="center">
-| <a href="https://therickyroy.github.io/astronauts-for-autism/" target="_blank">Live Project</a> |
-</p>
-
-## Introduction 
-
-Astronauts for Autism is my first assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp, consisting of learning outcomes to utilise HTML5, CSS3 & Bootstrap in order to fulfil the necessary requirements for the brief provided about safeguarding.
-
-The live project can found here: <a href="https://therickyroy.github.io/astronauts-for-autism/" target="_blank">Astronauts for Autism</a>
-
-<h2 align="center" id="TOC">Table of Contents</h2>
-
-* [Astronauts for Autism](#astronauts-for-autism)
-  - [Introduction](#introduction)
-  - [Table of Contents](#TOC)
-  - [Project Ouline](#project-outline)
-* [Project Planning](#project-planning)
-    - [UX Design](#ux-design)
-      - [User Stories](#user-stories)
-      - [Colors](#colors)
-      - [Fonts](#fonts)
-      - [Imagery](#imagery)
-      - [Wireframes](#wireframes)
-* [Features](#features)
-  - [General Features](#general-features)
-    - [Navigation and Hero Section](#navigation-and-hero-section)
-    - [Bootstrap Cards](#bootstrap-cards)
-    - [Policies Section](#policies-section)
-    - [Footer](#footer)
-    - [Links and Buttons](#links-and-buttons)
-  - [Resnposive Design](#responsive-design)
-* [Built With](#built-with)
-  - [Technology and Languages](#technologies-and-languages)
-  - [Libraries and Frameworks](#libraries-and-frameworks)
-  - [Tools & Programs](#tools-and-programs)
-* [Development](#deployment)
-* [Testing](#testing)
-* [Credits](#credits)
-  - [Code](#code)
-  - [Content Research](#content-research)
-  - [Media](#media)
-  - [Acknowledgements](#acknowledgements)
-
-
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-## Project Outline
-
-Astronauts for Autism is a fictional organisation dedicated to the support of autistic children and their families, with a primary focus on education and learning during weekly guided sessions. The page developed as part of this project documents the organisation's safeguarding policies and practices whilst offering information, support and contact options for children and parents alike.
-
-The final deliverable as well as fulfilling the content requirements is responsive to modern device standards, adheres to accessibility requirements and is aesthetically pleasing with a focus on the needs and well-being of in the intended end-user.
-
-### Key Objectives
-
-- A positive and appropriate user experience for autistic children and families utilising effective navigation and layout
-- Clear and concise presentation of content with easy to navigate options for additional information 
-- Responsive design that adheres to all necessary standards and accessibility requirements
-- Effective use of color and imagery ensuring consideration for the well-being of the end user
-- Inclusion of user-initiated actions providing immediate feedback
-
-## UX Design
-
-## User Stories 
-
-As a parent, I want to know the safeguarding measures in place so I can feel confident knowing my child will be safe during their guided sessions.
-
-As a parent, I want to easily find additional resources to support my child knowing these will be similar to what they have already learned within the sessions to prevent confusion and frustration. 
-
-As a child, I want to find resources that help me when I am feeling overwhelmed. 
-
-As a child, I want to be able to talk to someone when I am scared and need help.
-
-As a staff member, I want to be able to reassure children and parents that we provide a safe environment. 
-
-As a staff member, I want to be able to provide an easy point of access to resources to supplement our sessions.
-
-As a staff member, I want to provide an easy and secure method of communication, which may also include anonymity to protect those that feel unsafe. 
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-## Colors
-
-Color selection is a key component to any design process, however with the nature of the project this consideration is even greater due to the needs of the end user and the potential for negatively impacting their well-being. 
-
-The artwork and color selection thus played a integral part in the design of this project as they were essential in creating a welcoming and appropriate page for the end user and their specific needs. After much research and inspiration, combining general color theory, autistic specific color theory, my own personal experience of working with autistic children and adults, as well as feedback, I was able to determine an appropriate color scheme that is aesthetically pleasing whilst being both calming and engaging. 
-
-To ensure compliance to standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)) was used.<br>
-Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe](https://color.adobe.com/create/color-contrast-analyzer) color contrast tools were used to corroborate these results.
-
-### Main Palette
-
-- Deep Sky Blue `#30C5FF` `--blue`
-- Pink Lavender `#E4B7E5` `--pink`
-- Russian Violet `#381A46` `--purple`
-- Spring Green `#21F383` `--green`
-- Vanilla `#EEEEA2` `--yellow`
-
-![Color Contrast Checker Results](/documentation/images/color-contrast.gif)
-
-Due to the potential impact of color on autistic persons, additional research and feedback was sought out in order to ensure an appropriate selection was made for this project. Resources consulted can be found in the documentation for additional [research](/documentation/research.md).
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-## Fonts
-
-As with color, font was a big consideration for ensuring a positive user experience whilst visiting the page.<br>
-Two sans-serif fonts were selected for the project, and implemented via [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
-
-[Fredoka](https://fonts.google.com/specimen/Fredoka) serves as playful font to be used within logos, headings other page elements of significance.
-
-[Prompt](https://fonts.google.com/specimen/Prompt) is to be used as the primary content font ensuring ease of readability and complementing the Fredoka font choice. 
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-### Wireframes
-
-These low-fidelity wireframes have been created using [Balsamiq](https://balsamiq.com/) to define the key feature layout to guide the user experience design. Utilising the [Bootstrap](https://getbootstrap.com/) framework and available components allows for the construction of a page that feels familiar for ease of navigation whilst also allowing for well structured content and a responsive design. 
-
-**Mobile Wireframe**
-![Mobile Wireframe](/documentation/images/wireframe-mobile.webp)
-
-**Tablet Wireframe**
-![Tablet Wireframe](/documentation/images/wireframe-tablet.webp)
-
-**Desktop Wireframes**
-![Desktop Wireframe 1](/documentation/images/wireframe-desktop-1.webp)
-![Desktop Wireframe 2](/documentation/images/wireframe-desktop-2.webp)
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-## Imagery
-
-The image selection became a key influence in the design of the overall project, including naming and branding.
-
-With the requirements of the end user in mind, I sought out images that would fulfil specific criteria;
-- Strong thematic link that could be used for branding purposes
-- Easily identifiable and appealing to the target audience
-- Promote inclusivity
-- Have wide variety for appropriate use and relevance across project
-- Adhere to color research to maintain user well-being
-
-After seeking out many options including animal images in the same style, I opted to use the Astronaut.
-
-This selection of images fulfilled the criteria set out and offered further inspiration. 
-- Astronaut character maintains consistent theme and works well as brand image and name
-- Usage of the same character makes the images eaily identifiable and has a fun and playful appeal
-- Adopting research that has been applied to comic book superheroes, the use of a mask to hide identity allows the character to adopt universal representation and inclusivity
-- The images available using this character was great in number (more than included here) which would allow for relevant inclusion across the project and future implementation
-- The images not only adhered to the color requirements, but also informed minor adjustments to the color palette
-
-Before implementing the images into the project I used [Affinity Photo 2](https://affinity.serif.com/en-gb/photo/) to make some minor adjustments. This included removing background colors, removing hearts that felt inappropriate to the end user and converting them to webp formatting to follow current standards.
-
-![Astronaut Images](/documentation/images/images.gif)
-- Astronaut Artwork: Designed by [Freepik](http://www.freepik.com/) - Following [Attributation Policy](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US)
-
-During my process of seeking out feedback for UX my decision to include the astronaut character based up on the anonymity and thus inclusivity was confirmed to be a positive one.
-![Mobile Wireframe](/documentation/images/space_mumma.png)
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-## Features
-
-### General Features
-
-In order to fulfil the criteria the page consists of various sectioned information each with a variety of links, resources and other elements that contribute to a positive user experience. 
-
-Upon coding the project, receiving feedback and implementing the [Bootstrap Framework](https://getbootstrap.com/docs/5.3/getting-started/introduction/) the features and design shifted slightly from the original wireframe.
-
-Some key adjustments: 
-
-- The inclusion of buttons within the hero section.<br>
-This was done to reflect the clearly definied section of content and provide the user an easy navigation link to the section they would most likely be seeking to interact with. 
-
-- Opting not centre all content within their respective parents.<br>
-This decision was made as a result of personal reflection and user feedback to provide a more enjoyable user experience.
-
-#### Navigation and Hero Section
-
-I chose to use a bold and welcoming hero section for the start of the page using the [Bootstrap Jumbotron](https://getbootstrap.com/docs/5.3/examples/jumbotron/)
-
-This gives a clear indication of the content as well as imagery that links to the brand and identity of the organisation.
-
-Within this section I have included two buttons that present easy to navigate options for the user to access the relevant section of the page for their needs.
-
-The navigation bar is a Bootstrap component that allows for easy navigation around the site using a familiar method for a positive user experience.
-
-![Navigation & Hero](/documentation/images/nav-and-hero.webp)
-
-#### Bootstrap Cards
-
-I opted to utilise the [Bootstrap Card](https://getbootstrap.com/docs/5.3/components/card/) feature for the main content of the page as this allowed for a clean organisation of the information. 
-
-Within these sections I have also opted to provide additional resources, links and access to contact modals via buttons for ease.
-
-For balance I also gave the cards a consistent height by adding the `h-100` class.
-
-![Cards](/documentation/images/cards.webp)
-
-#### Policies Section
-
-Mirroring the design of the hero section, I have included a safeguarding policies section for the organisation giving basic details and providing a link to download the policy in full. 
-
-This section not only serves as a vital area for information, but also as a visual divider between the card sections aimed at parents and their families. 
-
-![Policies Section](/documentation/images/policies.webp)
-
-#### Footer
-
-For the footer again I implemented a [Bootstrap](https://getbootstrap.com/docs/5.3/examples/footers/) component.
-
-Here I have used the bold contrast of the purple to distinguish it apart from the rest of the page allowing it to be easily identifiable across the whole website.
-
-The information provided in this section is considered somewhat standard and provides for a user experience that is easy to understand. 
-
-#### Links and Buttons
-
-Although the page used a variety of colours for buttons to adhere to contrast requirements, each link and button does maintain a level of consistency by utilising the `var(--blue)` as part of it's `:hover` status in some way.
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-### Responsive Design
-
-Utilising the [Bootstrap Framework](https://getbootstrap.com/docs/5.3/getting-started/introduction/) allowed for an implementation that is responsive without the need for additional CSS or media queries.
-
-Though it took some experimentation and troubleshooting, I have been able to create a page that is fully responsive to modern standards.
-
-This has proven to be a very valuable learning experience in the use of frameworks.
-As a result of my debugging within Dev Tools in order to identify and resolve responsiveness issues I believe I have a much greater understanding of how to adpat Bootstrap for use within future projects. 
-
-During testing it was apparent that `display-6` was too large for the navbar brand text so this was removed to increase responsivity.
-
-[Am I Responsive](https://ui.dev/amiresponsive?url=https://therickyroy.github.io/astronauts-for-autism/)<br>
-![Am I Responsive](/documentation/images/responsive.webp)<br>
-![Mobile](/documentation/images/mobile.webp)<br>
-![ipad Mini](/documentation/images/ipad-mini.webp)<br>
-![Dektop](/documentation/images/desktop.webp)<br>
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-
-## Built With
-
-### Technologies and Languages
-![Static Badge](https://img.shields.io/badge/HTML5-Language-grey?logo=html5&logoColor=%23ffffff&color=%23E34F26)
-![Static Badge](https://img.shields.io/badge/CSS3-Language-grey?logo=css3&logoColor=%23ffffff&color=%231572B6)
-
-<a href="https://git-scm.com/" target=_blank_>![Static Badge](https://img.shields.io/badge/Git-v2.46.2-grey?logo=git&logoColor=%23ffffff&color=%23F05032)</a>
-<a href="https://github.com/" target="_blank">![Static Badge](https://img.shields.io/badge/GitHub-Repo_Hosting-white?logo=github&logoColor=%23ffffff&color=%23181717)</a>
-<a href="https://www.gitpod.io/" target="_blank">![Static Badge](https://img.shields.io/badge/Gitpod-IDE-white?logo=gitpod&logoColor=%23ffffff&color=%23FFAE33)</a>
-
-### Libraries and Frameworks
-<a href="https://getbootstrap.com/" target="_blank">![Static Badge](https://img.shields.io/badge/Bootstrap-v5.3.3-grey?logo=bootstrap&logoColor=%23ffffff&color=%237952B3)</a>
-<a href="#" target="_blank">![Static Badge](https://img.shields.io/badge/Font_Awesome-Icons-grey?logo=fontawesome&logoColor=%23ffffff&color=%23538DD7)</a>
-<a href="#" target="_blank">![Static Badge](https://img.shields.io/badge/Google_Fonts-Fonts-grey?logo=googlefonts&logoColor=%23ffffff&color=%234285F4)</a>
-
-
-### Tools and Programs
-<a href="https://affinity.serif.com/en-gb/" target="_blank">![Static Badge](https://img.shields.io/badge/Affinity-Photo%202-grey?logo=affinityphoto&logoColor=%23ffffff&color=%234E3188)</a>
-<a href="https://balsamiq.com/wireframes/" target="_blank">![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-grey?logoColor=%23ffffff&color=%23CC0100)</a>
-<a href="https://ezgif.com/maker" target="_blank">![Static Badge](https://img.shields.io/badge/Ezgif-GIF_Maker-grey?logoColor=%23ffffff&color=%23ffffff)</a>
-
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-## Deployment
-
-
-This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template) ensuring all necessary dependencies were included when opening within the designated workspace on the [Gitopod IDE](https://www.gitpod.io/).
-
-Setup a repo using this method and template:
-1. Login to your GitHub profile.
-2. Navigate to the Code Institute Full Template
-3. Click the dropdown for 'Use this template' and select "Create a new repository"
-4. Generate the necessary name and description for your repo and click 'Create repository from template'
-5. Navigate to the new repo and click the green 'Open' button with the Gitpod logo<br>
-**IMPORTANT - This button should only be clicked once to generate the new IDE workspace**
-6. You can now work on your repository within the Code Institute Gitpod IDE workspace
-
-Once the project repo is created, an early deployment for the live project should performed.<br>
-This allows for early and continuous testing using a variety of devices, as well as the Dev Tools available within browsers.
-
-Additional information on the deployment process can be found on the official [GitHub Docs](https://docs.github.com/en/pages/quickstart)
-
-
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-## Testing
-
-Testing and validation os the website was carried out throughout the course of the project.
-
-This included regular debugging and testing using the Dev Tools as ptovided within Chrome Browser.
-
-[HTML Validation](https://validator.w3.org/)<br>
-![HTML Validation](/documentation/images/validation-html.webp)
-
-[CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
-![CSS Validation](/documentation/images/validation-css.webp)
-
-[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)<br>
-![Lighthouse](/documentation/images/lighthouse.webp)
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-## Credits
-
-### Code
-
-Project and primary learning supplied by [Code Institute](https://codeinstitute.net/ie/)<br>
-Supplemental learning resources directly used / referenced within the project:
-
-- 
-- [Bootstrap Docs](https://getbootstrap.com/docs/5.3)
-- [Bootstrap 5 Crash Course Tutorial #9 - Navbars - YouTube](https://www.youtube.com/watch?v=7AT1X9Z41sA&t=677s)
-- [CSS Variables - The var() function](https://www.w3schools.com/css/css3_variables.asp)
-- [Gemini](https://gemini.google.com) as a learning tool, no code was directly used
-- [Make cards same height side-by-side in Bootstrap 5 - YouTube](https://www.youtube.com/watch?v=wolSRMGJ-Ls)
-- [Mozilla - mdn web docs](https://developer.mozilla.org/)
-
-All additional sources that complemented my learning can be round within additional [research](/documentation/research.md).
-
-### Content Research
-
-Due to the nature of the content within this project I was taken down many avenues of research, in part for specifics regarding the content, but also as part of my own personal development and continued learning on how to apply learning objectives to research methodologies. 
-
-The additional [research](/documentation/research.md) has been compiled into list and can be found within the documentation folder of this repo. 
-
-### Media
-
-- Astronaut Artwork: Designed by [Freepik](http://www.freepik.com/) - Following [Attributation Policy](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US)
-- Static badges for README documentation [Shields.io](https://shields.io/badges/static-badge) & [Simple Icons](https://simpleicons.org/)
-
-### Acknowledgements
-
-- Rhiannon and Jessie for providing feedback on the user experience and colors based on their experience working with autistic children and adults.
-- Julia for providing feedback on design and navigation and also identifying typos.
-- Space_Mumma for providing feedback on design and also inadvertently corroborating my decision to use the astronaut character for this project.
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+# Table of Contents #
+- - - -
+# Project Goals #
+## 1. User goals
+
+- The users goal is to gather information about popular rural travel destinations in Wales
+
+- The users goal is to being able to navigate the website quickly and efficently to our content
+
+- The users goal is to use our information presented to make their travel decisions 
+
+- The users goal is to find their rural destination and research more about events, food, local history and location
+    
+## 2. Site Owner Goals
+- The site owner goal is to provide unbiased comprehensive rural travel-related content
+
+- The site owner goal is to increase rural tourism to Wales
+
+- The site owner goal is to take feedback from users and provide better travel experiences & information to the public
+- - - -
+# Features #
+
+## Index Page
+### Carousel
+The site features a way to display information on how to best tour Wales, it’s home page prominently features a carousel of hero images that can display the best that Wales has to offer. 
+### Cards
+Below that are 3 cards that feature guides available with a short snippet of information and you can quickly choose the guide you wish rather than browsing the entire guide page. Selecting the guide you want will send you to the correct section of the guides page via an ID.  The cards are responsive going into a single column on a small screen and showing as a row of 3 on medium and larger screens.
+Below that is some information regarding Welsh rules on wild camping.
+
+## Guides Page
+The guides page is multiple pages in one and can be expanded downwards with further guides. It is responsive showing as a single column on smaller screens and two on medium and larger screens. The order on smaller screens is image > text > image > text however on medium and larger screens it will alternate to make the site more visually interesting and balanced. The guides have an accordion element from bootstrap that can be used to store extra information, a map iframe has been used as an example.
+
+## Contact page
+This page has used the min() function to fluidly size for many screen sizes at and between breakpoints to ensure a consistent view, the body is size to the viewport to ensure the footer remains at the bottom of the page without using a fixed position as fixed position cause issues with overlapping of the form and footer at smaller screen sizes
+
+- - - -
+# UX/UI #
+
+   ## 1. Target Audience
+   
+  - People looking to travel rurally
+  - People specifically looking for Wales based rural trips
+  - Users looking for rural travel tips in Wales
+  - Users already in the destinations looking for events or points of interest
+  - The Welsh travelling community 
+
+ ## 2. User Stories
+  - As a first time user, I want a navbar to easily navigate to the content I want.
+  - As a first time user, I want an introduction, blurb or image to easily understand the main purpose of the site.
+  - As a first time user, I want a guide/article to get a general rundown on the location. (i.e Transport, accommodation, events, food/drink, local history)
+  - As a  first time user, I need a map of the location.
+
+  - As a returning user, I want to contact the organisation to provide feedback
+  - As a returning user, I want to leave a review
+
+  - As a site owner I want a logo in order to help identify the brand.
+  - As a site owner, I want users to find the visually pleasing travel content easily.
+  - As a site owner, I want users to be able to book or find out more on the respective websites mentioned in the content
+  - As a site owner, I want to display an engaging carousel of hero images so that users are more likely to book tours
+- - - -
+ ## 2. Design Choice
+ 
+ ##  Colour Scheme
+
+ - A earthy/rural palette was picked by the team in fitting with the outdoors nature and rural travelling to align with our target audience 
+ - Inspired by https://coolors.co/cc3f0c-72705b-0f1a20-a1cca5-fffdf7
+ 
+ ##  Fonts
+ 
+ ### Main Content 
+ - Didact Gothic
+ ### Home Title & Wild Camping  
+ - Wales Sans Headline
+ 
+ ## Wireframes
+    
+  - Main Page Wireframe
+  <div align="center">
+  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/2dba9214-6f88-4ed3-97f6-741d84b9ec33" alt="Main page wireframe">
+</div>
+
+  - Article Page Wireframe
+
+  <div align="center">
+  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/9896a627-c591-4829-b0ab-add8ffb007bf" alt="Wireframe">
+  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/9f047ef6-5fb3-4394-8fae-22f964d49008" alt="Wireframe">
+  </div>
+  
+
+  - Contact Page Wireframe
+<div align="center">
+  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/ba3ef148-a6e7-43c1-af73-962268604127" alt="Wireframe">
+</div>
+
+ ## Logo
+
+- Created by Graeme (Gray) Adamson Logo 1 Logo 2. Used a CSS file and HTML file to create it
+- CSS file is in the assets folder in the CSS sub-folder which were used to generate logo files are logo.css and logo.css
+- Images used are in the assests folder in the logo sub-folder files are Web%20capture_10-1-2024_165527__resized.jpeg (logo) and Web%20capture_10-1-2024_173633__resized.jpeg (logo2)
+- Team decided on logo2
+- - - -
+# Testing #
+
+## HTML Validation
+- Initial HTML Validation was performed using the W3C Mark up service and the results can be found in this document. https://docs.google.com/document/d/1bpeozgiIdqKK1ukf-Le-pkrP0iTv6WHeWEdsZ5wpVN4/edit?usp=sharing
+- The missing P element & the duplicate attribute on class in the Guide.html has been resolved.
+- Any issues with the index.html & contact.html page have remained as future fixes.
+  
+## CSS Validation
+- Initial W3C CSS style sheet validation link https://docs.google.com/document/d/1PLn-LXFHKpIaeiYMOUwEe_7h6ZVjw1cCxucjCS2Kp-w/edit?usp=sharing
+- Test W3C Validation CSS style sheet validation https://docs.google.com/document/d/1t1xgVG540joh549TvAwI0CXQ889QDUD3y8Qt0xqJFtU/edit?usp=sharing
+- The style.css form passed with only one issue that was with a newer feature that some browsers do not support just yet. We have left this in as the browsers still work as intended.
+
+## Accessibility
+- We entered our website through AccessScan to check we were compliant with with ADA standards. Our website is ADA-compliant as shown below:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/da66d426-6223-48f4-afc3-1a122a9ad6c0)
+
+## Device Testing
+
+We have tested the site with the following devices:
+
+- Android Google Pixel 8
+- Desktop
+- Chrome Developer Tools (Simulating for all available device options)
+
+The site functioned mainly as expected but we did have a few teething problems when testing at first. The dropdown menu 
+  
+## Browser Testing
+
+Testing has been done on the following browsers:
+
+- Chrome (& Developer tools)
+- Opera
+- Safari
+
+## Testing Breakdown
+- We completed the following tests on all mentioned devices and browsers including the steps & outcomes from said tests. Any noted bugs are explained below.
+  
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/bb6a250c-5003-462c-a133-506bd18537bf)
+
+## Testing user stories
+
+We tested our site vs the user stories: 
+
+1. 
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e52c926b-713d-4ba0-823e-1f58e58e711b)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e0ad468c-ac68-40ef-a7ef-3a08fbedf058)
+--
+2. 
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/2561b52a-af2b-4239-a386-f87a8ab0c498)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/b590ea37-34a5-4404-a1ed-fb8745a28e9e)
+--
+3.
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/649049fb-25a6-4035-8e80-49bb07d24543)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/30c82c1e-28ea-4403-8b10-3371da297aff)
+--
+4.
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/14cdc8b8-7450-46d2-bde5-673bbe6a3ecc)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e9ecbba4-dd1c-43a4-b6a1-be45d7c765cd)
+--
+5. 
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/79e8300a-3523-485e-8304-147c1d4a3e81)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e0ad468c-ac68-40ef-a7ef-3a08fbedf058)
+--
+6.
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/3e4f9313-b077-40a9-bd7f-c287907d2e2d)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/89967414-9cbc-4e35-a16c-7bcc879abb2e)
+--
+7.
+- This user story combines the Must Have User Stories for Outsourcing content, YHA Booking Link & Hyperlinking Content
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/0f8cf269-4724-478c-b033-4228330d7cc1)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/8977ba5d-0f7b-4c43-9946-1ae94c78ff7e)
+--
+8.
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e7e29e5f-ee27-4c50-bd9c-176bc30fd820)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/0b6c59b5-dc37-4144-b349-e00e06ab50e0)
+
+## Known Bugs
+
+## During development, we found these bugs and fixed them:
+
+### Nav bar dropdown shifting to the right hand side on smaller devices
+
+- On smaller devices, in the connect.html and index.html pages the navbar burger logo to indicate the nav bar would switch sides and throw everything on there out of line.
+- To fix this issue, I checked the code in the other pages and texted them wjhere it worked fine. The issue was due to the logo which i had in the first pages. I copied across the code, resized the logo and this worked. 
+
+### Images resizing on smaller devices
+
+- The cards resized poorly when on smaller devices, meaning the images went out of shape and were hard to view. 
+- To fix this issue, I looked into the code and the bootstrap 5 container system, i edited them so that they would fill the screen on smaller devices and drop down below one another. 
+
+### Cards seeming too large on page
+
+- The cards and images inside them were originally 2 across the page with 2 below. I found that while testing this was not condusive to a good UX as they seemed too large. 
+- To fix this issue I made sure that the cards were smaller and all on one line of the page, meaning that the user could more easily see and navigate the page, and it was a calmer experience. 
+
+## During development and testing, these are the current bugs:
+
+### Images not sizing correctly on Cards 
+
+- This was an issue which was ongoing through my project - It was tricky to get the images to be the correct size for my cards. They would either bee too small/big, or not the same size as others. 
+- To fix this issue originally I spoke with Roo, who guided me to try using max height for the images, however i then found that when on smaller devices the images stretched out of shape. 
+- I then fixed this further by resizing and shaping all of the images in question so that they fitted well into the cards. 
+
+### =on smaller devices
+
+- The content when deployed on a smaller device reshuffles the image to the bottom of the container.
+- The text in the last paragraph changes to the default font rather than our applied styling in the CSS folder. This is specific to Android.
+
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/ca3315f9-de44-4588-8d92-ac96145639fc)
+- - - -
+# Deployment #
+
+How I deployed this site : 
+
+- In the GitHub repository, I navigated to the Settings tab, then chose Pages from the left hand menu 
+- From the source section drop-down menu, selected main branch
+- Once the main branch had been selected, the page was automatically refreshed with a detailed ribbon display to indicate the successful deployment
+- Any changes pushed to the main branch take effect on the live project
+
+- The live link is here: https://isaacnicholls1.github.io/MH-P1-IsaacN/
+
+- I used an agile methodology by using early deployment, I made sure the project was deployed after the first few pages were created. This ensured that I could see every change on a live site, which greatly aided the coding and development process.
+- ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/cad5ad9d-e0df-491f-982b-198d6f917797)
+
+- - - -
+# Sources #
+
+## Media
+ - The images that were usedn throughout the project were all used from the site https://www.pexels.com/
+ - I went through a range of images until I decided on the correct ones, I wanted to get the right feel for the site so this was very important. I decided to use all images of a certain type. 
+ - The following photos were used in the content: [Content Section sources.docx](https://github.com/IsaacNicholls1/MH-P1-IsaacN/tree/main/assets/images)
+ - Some images were edited with: https://squoosh.app/editor - this was to reduce their size and get them the correct shape, therefore providing a better UX when visiting the site.
+
+## HomePage Content. 
+-  I wanted to keep Homepage content to a minumum as I was aiming for a calm and easy user experience, so i felt that I didnt want to provide over stimulating information to the user. 
+-  Text for the homepage was generated using Co-Pilot, but had to be greatly re-fined and rewritted by me for the purpose of the project and specific user. 
+- I used sites such as https://www.mind.org.uk/need-urgent-help/using-this-tool/ and https://www.nhs.uk/nhs-services/mental-health-services/ to generate information and text ideas. 
+
+## Content
+- The colour scheme was helped with the use of: https://coolors.co - I went through a bit of testing with my different colours as the first ones I used i was not happy with, as they did not seem to suit the calm user experience that i was aiming for and were too bold. This led me to choosing the specific color palette that i did. 
+- The fonts were imported from Google Fonts. Originally I selected a font of Roboto sans, but it didnt not load properly and when it did, after testing the site i decided that it was not the correct font for my target audience. I eventually then tested some fonts and after some research decided on the font Poppins. 
+- Font awesome was used to add icons for UX purposes auch as social media icons. 
+- Balsamiq was used to create the wireframes during the design process, as this was the first time of using the tool it took a bit of getting used to and developing these. I tweaked them as i went along and made slight changes to my actual site. 
+
+## Code
+- The HTML & CSS uses Bootstrap Version 5.3: https://getbootstrap.com/docs/5.3/getting-started/introduction/ - this was loaded intto my page as one of the first steps and it was used greatly to create my site. 
+- I used other coding tools and resources such as snippets of code from my previous CI projects to guide and aid me when i needed reminding about the correct way to use the code.
+- I utilised AI in this project in the form of CoPilot. This helped me to create basic HTML structures and to edit parts of code that needed it. I found it very useful overall and saved me a great deal of time, however I found when using, it needed a close eye kept on it as it seems to add in exra closing tags and code that is sometimes not needed. Overall a very useful tool when used in the correct context. 
+
+
+# What could I add for future features? #
+- If i had more time for this project i wopuld have liked to add another "About Us" page, which i think would have been useful to the site visitor and would explain a little more about what we do. 
+- I would have liked to add an email button at the bottom of each page for the user to enter their email and receive a monthly newsletter. 
+- I would have liked to possibly implement some more texture to the background using https://www.transparenttextures.com/, however this is something that I have not looked into so would have needed a bit more time to learn and implement. 
+- One extra thing would have been to add in a search bar at the top in the navbar as this would provide a better UX, giving the user the ability to find what they need from anywhere in the site. 
+- Something that I started doing but ran out of time for was the re-sizing of pictures using the site https://squoosh.app/editor
+  I woild have liked to edit all of them and change them to PNG to give an overall faster loading site and better UX. 
+- I would have very much liked to create a more interesting and more responsive readme file, with images and tools to help the UX, this is something I wish to develop for future projects. 
+
+###  Acknowledgments
+- I would like to thank my wife Jacqui for helping to test my site and to provide feedback on the look, feel and content. 
+- I would like to thank Roo at CI as when i was a little stuck on a tricky aspect I spoke with him and this helped to figure the problem out. 
+- - - -
