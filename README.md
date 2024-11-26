@@ -4,122 +4,132 @@
 # Project Goals #
 ## 1. User goals
 
-- The users goal is to gather information about popular rural travel destinations in Wales
+- The users goal is to access a variety of mental health resources tailored for men so that they can find information and support relevant to their needs.
 
 - The users goal is to being able to navigate the website quickly and efficently to our content
 
-- The users goal is to use our information presented to make their travel decisions 
+- The users goal is to use our information presented to make decisions or be guided into help that is needed or where to go next if they have a problem. 
 
-- The users goal is to find their rural destination and research more about events, food, local history and location
+- The users goal is to find information about accessing professional mental health help so that they can seek support from qualified professionals.
     
 ## 2. Site Owner Goals
-- The site owner goal is to provide unbiased comprehensive rural travel-related content
+- The site owner goal is to provide a calm, inviting space for the user to access information. 
 
-- The site owner goal is to increase rural tourism to Wales
+- The site owner goal is to make men who have mental health issues able to easily access information on this topic. 
 
-- The site owner goal is to take feedback from users and provide better travel experiences & information to the public
+- The site owner goal is to provide a site which has ideas and tips how to access help, and also to provide this information in a clear, calm and concise way. 
 - - - -
 # Features #
 
-## Index Page
-### Carousel
-The site features a way to display information on how to best tour Wales, it’s home page prominently features a carousel of hero images that can display the best that Wales has to offer. 
+## Main Page
+### Hero Image
+The main page features a hero image which is welcoming and calm, a responsive header and footer with navigation links and on the footer social media links. There is a welcoming message for users and a call to action button for users if they need urgent assistance.
 ### Cards
-Below that are 3 cards that feature guides available with a short snippet of information and you can quickly choose the guide you wish rather than browsing the entire guide page. Selecting the guide you want will send you to the correct section of the guides page via an ID.  The cards are responsive going into a single column on a small screen and showing as a row of 3 on medium and larger screens.
-Below that is some information regarding Welsh rules on wild camping.
+Below there are 3 cards with images in which relate to the three pages. These links can be clicked on and users are taken to the corresponding pages.
 
-## Guides Page
-The guides page is multiple pages in one and can be expanded downwards with further guides. It is responsive showing as a single column on smaller screens and two on medium and larger screens. The order on smaller screens is image > text > image > text however on medium and larger screens it will alternate to make the site more visually interesting and balanced. The guides have an accordion element from bootstrap that can be used to store extra information, a map iframe has been used as an example.
+## Your course Page
+This page features a friendly welcoming hero image, with a call to action button for users if they need urgent assistance. 
+There are 4 cards below this which feature a short amount of text and an image corresponding to the different sections. 
+
+## Connect page
+This page features a friendly welcoming hero image, with a call to action button for users if they need urgent assistance. 
+There are 4 cards below this which feature a short amount of text and an image corresponding to the different sections. This information is more aimed towards users connecting with others. 
 
 ## Contact page
-This page has used the min() function to fluidly size for many screen sizes at and between breakpoints to ensure a consistent view, the body is size to the viewport to ensure the footer remains at the bottom of the page without using a fixed position as fixed position cause issues with overlapping of the form and footer at smaller screen sizes
+This page is a simple contact form page with a header and the chance to get in contact with our site via a contact form. Again with a cta button for users who need urgent assistance. 
 
 - - - -
 # UX/UI #
 
    ## 1. Target Audience
    
-  - People looking to travel rurally
-  - People specifically looking for Wales based rural trips
-  - Users looking for rural travel tips in Wales
-  - Users already in the destinations looking for events or points of interest
-  - The Welsh travelling community 
+  - Males in the 18-40 age bracket
+  - People struggling with mental health issues and looking for help or guidance
+  - Users looking for tips or helpful ways to overcome these issues. 
+  
+  - Family or partners of males who are struggling with their mental health. 
 
  ## 2. User Stories
   - As a first time user, I want a navbar to easily navigate to the content I want.
   - As a first time user, I want an introduction, blurb or image to easily understand the main purpose of the site.
-  - As a first time user, I want a guide/article to get a general rundown on the location. (i.e Transport, accommodation, events, food/drink, local history)
-  - As a  first time user, I need a map of the location.
-
-  - As a returning user, I want to contact the organisation to provide feedback
-  - As a returning user, I want to leave a review
+  - As a first time user, I want to access a variety of mental health resources tailored for men so that I can find information and support relevant to my needs.
+  - As a user, I want to learn about self-care tips and techniques so that I can improve my mental well-being.
+  - As a visitor, I want to see important information in the footer so that I can easily find contact details, social media links, and additional resources.
+  - As a user, I want to contact the organisation to recieve help or aid if i so wish
+  - As a visitor, I want to see a well-organized homepage so that I can quickly understand what the website offers and navigate to relevant sections.
 
   - As a site owner I want a logo in order to help identify the brand.
-  - As a site owner, I want users to find the visually pleasing travel content easily.
-  - As a site owner, I want users to be able to book or find out more on the respective websites mentioned in the content
-  - As a site owner, I want to display an engaging carousel of hero images so that users are more likely to book tours
+  - As a site owner, I want users to find the site visually calming.
+  - As a site owner, I want users to be able to find out more about the information and respective websites easily
+  - As a site owner, I want to display engaging images which will lead to being clicked on and taken to other sites and help. 
+
+## 3. Why I chose this particular topic 
+
+  - I specifically researched and wanted to target the particular audience of males struggling with mental health issues, as it was of particular importance and relevance to me as my best friend suffers from this and tried to commit suicide recently. This gave me a very good idea of the target audience and what help or information they may need within the site. 
 - - - -
+
  ## 2. Design Choice
  
  ##  Colour Scheme
 
- - A earthy/rural palette was picked by the team in fitting with the outdoors nature and rural travelling to align with our target audience 
- - Inspired by https://coolors.co/cc3f0c-72705b-0f1a20-a1cca5-fffdf7
+ - A calm but fun palette was picked in fitting with the UX and to align with our target audience 
+ - Inspired by https://coolors.co/adbca5-ffffff-544b3d-e55812-2274a5
+
+ **Coolers**
+![Colours](/assets/images/rdme-img/cooloersINP1.png)
  
  ##  Fonts
- 
- ### Main Content 
- - Didact Gothic
- ### Home Title & Wild Camping  
- - Wales Sans Headline
+ - Poppins
  
  ## Wireframes
+
+ - These low-fidelity wireframes have been created using Balsamiq to define the key feature layout to guide the user experience design. Utilising the Bootstrap framework and available components allows for the construction of a page that feels familiar for ease of navigation whilst also allowing for well structured content and a responsive design.
     
   - Home Page Wireframe
-  <div align="center">
-  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/2dba9214-6f88-4ed3-97f6-741d84b9ec33" alt="Main page wireframe">
-</div>
 
-  - Your Course Page Wireframe
+  **Home Page Wireframe**
+![Mobile Wireframe](/assets/images/rdme-img/Wireframe-Homepage.png)
 
-  <div align="center">
-  ![wireframe-mainpage](../MH-P1-IsaacN/assets/images/rdme-img/Wireframe-Homepage.png)
-  </div>
+ **Your course Page Wireframe**
+![Your Course Wireframe](/assets/images/rdme-img/wireframe-yourcourse.png)
 
-  - Connect Page Wireframe
-
-  <div align="center">
-  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/9896a627-c591-4829-b0ab-add8ffb007bf" alt="Wireframe">
-  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/9f047ef6-5fb3-4394-8fae-22f964d49008" alt="Wireframe">
-  </div>
+**Connect Page Wireframe**
+![Connect Wireframe](/assets/images/rdme-img/wireframe-connect.png)
   
+  **Contact Page Wireframe**
+![Contact Wireframe](/assets/images/rdme-img/wireframe-contact.png)
 
-  - Contact Page Wireframe
-<div align="center">
-  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/ba3ef148-a6e7-43c1-af73-962268604127" alt="Wireframe">
-</div>
 
  ## Logo
 
 - Image taken from Pexels.com and resized with squoosh photo editor to make the correct size. 
 - File is in the assets folder, and subolder images. 
 
+**Logo**
+![Logo](/assets/images/logo.jpg)
+
 - - - -
 # Testing #
 
 ## HTML Validation
-- Initial HTML Validation was performed using the W3C Mark up service and the results can be found in this document. https://docs.google.com/document/d/1bpeozgiIdqKK1ukf-Le-pkrP0iTv6WHeWEdsZ5wpVN4/edit?usp=sharing
-- The has been resolved.
-- No Issues with 
+- Initial HTML Validation was performed using the W3C Mark up service and the results can be found in this document. 
+- The issue has been resolved.
+- No Issues with any of the pages.
   
 ## CSS Validation
-- Initial W3C CSS style sheet validation link https://docs.google.com/document/d/1PLn-LXFHKpIaeiYMOUwEe_7h6ZVjw1cCxucjCS2Kp-w/edit?usp=sharing
-- Test W3C Validation CSS style sheet validation https://docs.google.com/document/d/1t1xgVG540joh549TvAwI0CXQ889QDUD3y8Qt0xqJFtU/edit?usp=sharing
+- Initial W3C CSS style sheet validation link 
+- Test W3C Validation CSS style sheet validation 
 - The style.css form passed with only one issue that was with a newer feature that some browsers do not support just yet. We have left this in as the browsers still work as intended.
 
 ## Accessibility
-- We entered our website through AccessScan to check we were compliant with with ADA standards. Our website is ADA-compliant as shown below:
-![image]()
+ - I tested the page with lighthouse and the accessibility and performance scores came out at ......
+ - I improved these by 
+
+## Responsivity
+- I tested the website with DevTools so that it worked across all different device sizes, including mobile and tablet. This is very important as it must be functional across all types of devices. There were some issues with this as noted in the testing section, but all were sorted out before the final checks. 
+
+**Responsive site**
+![Am I Responsive](/assets/images/rdme-img/responsive.png)
 
 ## Device Testing
 
@@ -224,11 +234,6 @@ Site Example:
 - This was an issue which was ongoing through my project - It was tricky to get the images to be the correct size for my cards. They would either bee too small/big, or not the same size as others. 
 - To fix this issue originally I spoke with Roo, who guided me to try using max height for the images, however i then found that when on smaller devices the images stretched out of shape. 
 - I then fixed this further by resizing and shaping all of the images in question so that they fitted well into the cards. 
-
-### =on smaller devices
-
-- The content when deployed on a smaller device reshuffles the image to the bottom of the container.
-- The text in the last paragraph changes to the default font rather than our applied styling in the CSS folder. This is specific to Android.
 
 - - - -
 # Deployment #
