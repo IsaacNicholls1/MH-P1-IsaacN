@@ -31,9 +31,15 @@ h1 h2 h3 h4 h5 h6{
 
 #navbar {
     background-color: var(--primary-color);
-    color: whitesmoke;
+    color: rgb(12, 12, 131);
     width: 100%;
     position: fixed;
+}
+/*  Stlying of custom navbar button */
+.nav-item1 {
+    background-color: #E55812;
+    border-radius: 20px;
+    width: 110px;
 }
 
 .logo {
@@ -55,7 +61,7 @@ h1 h2 h3 h4 h5 h6{
     color: #FFEBD4;
     padding: 8rem 0;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 58px;
+    margin-top: 62px;
 }
 
 /* Style the hero index.html section */
@@ -79,7 +85,7 @@ h1 h2 h3 h4 h5 h6{
     color: #FFEBD4;
     padding: 8rem 0;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 58px;
+    margin-top: 70px;
 }
 
 /* Add margin at the top to prevent content from being covered by the header */
