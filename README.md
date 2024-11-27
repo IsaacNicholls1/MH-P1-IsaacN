@@ -198,52 +198,47 @@ We tested our site vs the user stories:
 
 1. 
 User Story:
-![User story](/assets/images/rdme-img)
+![User story](/assets/images/rdme-img/userstories1.png)
 Site Example:
-![Site Example](/assets/)
+![Site Example](/assets/images/rdme-img/userstories1done.png)
 --
 2. 
 User Story:
-![User story](/assets/images/rdme-img)
+![User story](/assets/images/rdme-img/userstories2.png)
 Site Example:
-![Site Example](/assets/)
+![Site Example](/assets/images/rdme-img/userstories2done.png)
 --
 3.
 User Story:
-![User story](/assets/images/rdme-img)
+![User story](/assets/images/rdme-img/userstory3.png)
 Site Example:
-![Site Example](/assets/)
+![Site Example](/assets/images/rdme-img/userstory3done.png)
 --
 4.
 User Story:
-![User story](/assets/images/rdme-img)
+![User story](/assets/images/rdme-img/userstory4.png)
 Site Example:
-![Site Example](/assets/)
+![Site Example](/assets/images/rdme-img/userstory4done.png)
 --
 5. 
 User Story:
-![User story](/assets/images/rdme-img)
+![User story](/assets/images/rdme-img/userstory5.png)
 Site Example:
-![Site Example](/assets/)
+![Site Example](/assets/images/rdme-img/userstory5done.png)
 --
 6.
 User Story:
-![User story](/assets/images/rdme-img)
+![User story](/assets/images/rdme-img/userstory6.png)
 Site Example:
-![Site Example](/assets/)
+![Site Example](/assets/images/rdme-img/userstory6done.png)
 --
 7.
-- This user story combines the Must Have User Stories for Outsourcing content, YHA Booking Link & Hyperlinking Content
+
 User Story:
-![User story](/assets/images/rdme-img)
+![User story](/assets/images/rdme-img/userstory7.png)
 Site Example:
-![Site Example](/assets/)
+![Site Example](/assets/images/rdme-img/userstory7done.png)
 --
-8.
-User Story:
-![User story](/assets/images/rdme-img)
-Site Example:
-![Site Example](/assets/)
 
 ## Known Bugs
 
