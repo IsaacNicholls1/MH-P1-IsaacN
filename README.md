@@ -77,7 +77,11 @@ There are 4 cards below this which feature a short amount of text and an image c
 ## Contact page
 This page is a simple contact form page with a header and the chance to get in contact with our site via a contact form. Again with a cta button for users who need urgent assistance. 
 
+<hr>
+<p><a href="#contents">Back To Top</a></p>
+
 - - - -
+
 # UX/UI #
 
    ## Target Audience
@@ -105,6 +109,9 @@ This page is a simple contact form page with a header and the chance to get in c
 ## Why I chose this particular topic 
 
   - I specifically researched and wanted to target the particular audience of males struggling with mental health issues, as it was of particular importance and relevance to me as my best friend suffers from this and tried to commit suicide recently. This gave me a very good idea of the target audience and what help or information they may need within the site. 
+
+<hr>
+<p><a href="#contents">Back To Top</a></p>
 - - - -
 
  ## Design
@@ -138,6 +145,8 @@ This page is a simple contact form page with a header and the chance to get in c
   **Contact Page Wireframe**
 ![Contact Wireframe](/assets/images/rdme-img/wireframe-contact.png)
 
+<hr>
+<p><a href="#contents">Back To Top</a></p>
 - - - -
 # Testing #
 
@@ -158,8 +167,8 @@ This page is a simple contact form page with a header and the chance to get in c
  
 ## Accessibility
  - I tested the page with lighthouse and the accessibility and performance scores came out at ...
- ![lighthouse scores](/assets/images/rdme-img/)
- - I improved these by following the prompts, but mainly by resizing my images (especially the hero images) as these were slowing the site loading down. This greatly increased my lighthouse scores. 
+ ![lighthouse scores](/assets/images/rdme-img/lighthouse.png)
+ - I believe that these could be greatly mimproved these by following the prompts, but mainly by resizing my images (especially the hero images) as these are slowing the site loading down. This would greatly increase my lighthouse scores. 
  ![lighthouse scores final](/assets/images/rdme-img/)
 
 ## Responsivity
@@ -187,10 +196,15 @@ Testing has been done on the following browsers:
 - Chrome (& Developer tools)
 - Safari
 
-## Testing Breakdown
-- We completed the following tests on all mentioned devices and browsers including the steps & outcomes from said tests. Any noted bugs are explained below.
+# Testing Table #
+
+![Testing Table](/assets/images/rdme-img/testingtble.png)
+
+-  I would have liked to develop my testing table further, as all aspects of the site were tested but documentation in the readme could have been more thorough
   
-![Testing](/assets/images)
+  <hr>
+<p><a href="#contents">Back To Top</a></p>\
+
 
 ## Testing user stories
 
@@ -238,11 +252,14 @@ User Story:
 ![User story](/assets/images/rdme-img/userstory7.png)
 Site Example:
 ![Site Example](/assets/images/rdme-img/userstory7done.png)
+
+<hr>
+<p><a href="#contents">Back To Top</a></p>
 --
 
 ## Known Bugs
 
-## During development, we found these bugs and fixed them:
+## During development, I found these bugs and fixed them:
 
 ### Nav bar dropdown shifting to the right hand side on smaller devices
 
@@ -277,6 +294,8 @@ Site Example:
 
 - There are some errors/warnings in lighthouse which would improve the score. These are things that i am currently not sure how to fix so this will be something to ask/research before my next project. 
 
+<hr>
+<p><a href="#contents">Back To Top</a></p>
 - - - -
 # Deployment #
 
@@ -293,7 +312,11 @@ How I deployed this site :
 ![Site Example](/assets/images/rdme-img/earlydeployment.png)
 ![Site Example](/assets/images/rdme-img/deployment.png)
 
+<hr>
+<p><a href="#contents">Back To Top</a></p>
+
 - - - -
+
 # Sources #
 
 ## Media
@@ -329,8 +352,13 @@ How I deployed this site :
 - Something that I started doing but ran out of time for was the re-sizing of pictures using the site https://squoosh.app/editor
   I woild have liked to edit all of them and change them to PNG to give an overall faster loading site and better UX. 
 - I would have very much liked to create a more interesting and more responsive readme file, with images and tools to help the UX, this is something I wish to develop for future projects. 
+- I would have liked to develop my testing table further, as all aspects of the site were tested but documentation in the readme could have been more thorough 
 
 ###  Acknowledgments
 - I would like to thank my wife Jacqui for helping to test my site and to provide feedback on the look, feel and content. 
-- I would like to thank Roo at CI as when i was a little stuck on a tricky aspect I spoke with him and this helped to figure the problem out. 
+- I would like to thank Roo at CI as when i was a little stuck on a tricky aspect I spoke with him and this helped to figure the problem out.
+
+<hr>
+<p><a href="#contents">Back To Top</a></p>
+
 - - - -
