@@ -138,15 +138,6 @@ This page is a simple contact form page with a header and the chance to get in c
   **Contact Page Wireframe**
 ![Contact Wireframe](/assets/images/rdme-img/wireframe-contact.png)
 
-
- ## Logo
-
-- Image taken from Pexels.com and resized with squoosh photo editor to make the correct size. 
-- File is in the assets folder, and subolder images. 
-
-**Logo**
-![Logo](/assets/images/logo.jpg)
-
 - - - -
 # Testing #
 
@@ -174,7 +165,7 @@ This page is a simple contact form page with a header and the chance to get in c
 ## Responsivity
 - I tested the website with DevTools so that it worked across all different device sizes, including mobile and tablet. This is very important as it must be functional across all types of devices. There were some issues with this as noted in the testing section, but all were sorted out before the final checks. 
 
-I checked the site was responsive across all devices. Orinignally i had a problem with the navbar becoming too small and squashed when pushed into a mobile device so i fixed this and with more testing i resolved the issue. I had the same issues with the images resizing themselves but managed to edit and sort these problems. Below are examples of the responsive site across all four pages. 
+- I checked the site was responsive across all devices. Orinignally i had a problem with the navbar becoming too small and squashed when pushed into a mobile device so i fixed this and with more testing i resolved the issue. I had the same issues with the images resizing themselves but managed to edit and sort these problems. Below are examples of the responsive site across all four pages. 
 
 ![Am I Responsive home](/assets/images/rdme-img/responsivehome.png)
 ![Am I Responsive connect](/assets/images/rdme-img/responsiveconnect.png)
@@ -199,7 +190,7 @@ Testing has been done on the following browsers:
 ## Testing Breakdown
 - We completed the following tests on all mentioned devices and browsers including the steps & outcomes from said tests. Any noted bugs are explained below.
   
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/bb6a250c-5003-462c-a133-506bd18537bf)
+![Testing](/assets/images)
 
 ## Testing user stories
 
@@ -207,52 +198,52 @@ We tested our site vs the user stories:
 
 1. 
 User Story:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e52c926b-713d-4ba0-823e-1f58e58e711b)
+![User story](/assets/images/rdme-img)
 Site Example:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e0ad468c-ac68-40ef-a7ef-3a08fbedf058)
+![Site Example](/assets/)
 --
 2. 
 User Story:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/2561b52a-af2b-4239-a386-f87a8ab0c498)
+![User story](/assets/images/rdme-img)
 Site Example:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/b590ea37-34a5-4404-a1ed-fb8745a28e9e)
+![Site Example](/assets/)
 --
 3.
 User Story:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/649049fb-25a6-4035-8e80-49bb07d24543)
+![User story](/assets/images/rdme-img)
 Site Example:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/30c82c1e-28ea-4403-8b10-3371da297aff)
+![Site Example](/assets/)
 --
 4.
 User Story:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/14cdc8b8-7450-46d2-bde5-673bbe6a3ecc)
+![User story](/assets/images/rdme-img)
 Site Example:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e9ecbba4-dd1c-43a4-b6a1-be45d7c765cd)
+![Site Example](/assets/)
 --
 5. 
 User Story:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/79e8300a-3523-485e-8304-147c1d4a3e81)
+![User story](/assets/images/rdme-img)
 Site Example:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e0ad468c-ac68-40ef-a7ef-3a08fbedf058)
+![Site Example](/assets/)
 --
 6.
 User Story:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/3e4f9313-b077-40a9-bd7f-c287907d2e2d)
+![User story](/assets/images/rdme-img)
 Site Example:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/89967414-9cbc-4e35-a16c-7bcc879abb2e)
+![Site Example](/assets/)
 --
 7.
 - This user story combines the Must Have User Stories for Outsourcing content, YHA Booking Link & Hyperlinking Content
 User Story:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/0f8cf269-4724-478c-b033-4228330d7cc1)
+![User story](/assets/images/rdme-img)
 Site Example:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/8977ba5d-0f7b-4c43-9946-1ae94c78ff7e)
+![Site Example](/assets/)
 --
 8.
 User Story:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e7e29e5f-ee27-4c50-bd9c-176bc30fd820)
+![User story](/assets/images/rdme-img)
 Site Example:
-![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/0b6c59b5-dc37-4144-b349-e00e06ab50e0)
+![Site Example](/assets/)
 
 ## Known Bugs
 
@@ -277,13 +268,19 @@ Site Example:
 
 - When deploying and testing the site I found that the font that was being used was not a good fit for the User. It was too clinical and i felt it needed a rounder and calmer font. To fix this i did some more research and found that a good fit was the Poppins font. 
 
-## During development and testing, these are the current bugs:
-
-### Images not sizing correctly on Cards 
-
 - This was an issue which was ongoing through my project - It was tricky to get the images to be the correct size for my cards. They would either bee too small/big, or not the same size as others. 
 - To fix this issue originally I spoke with Roo, who guided me to try using max height for the images, however i then found that when on smaller devices the images stretched out of shape. 
 - I then fixed this further by resizing and shaping all of the images in question so that they fitted well into the cards. 
+
+## During development and testing, these are the current bugs:
+
+### Images too large 
+
+- Some of the images are still too large - generating a lower lighthouse score than i would have liked. 
+
+### Unknown code fixes in lighthouse
+
+- There are some errors/warnings in lighthouse which would improve the score. These are things that i am currently not sure how to fix so this will be something to ask/research before my next project. 
 
 - - - -
 # Deployment #
@@ -298,7 +295,8 @@ How I deployed this site :
 - The live link is here: https://isaacnicholls1.github.io/MH-P1-IsaacN/
 
 - I used an agile methodology by using early deployment, I made sure the project was deployed after the first few pages were created. This ensured that I could see every change on a live site, which greatly aided the coding and development process.
-- ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/cad5ad9d-e0df-491f-982b-198d6f917797)
+![Site Example](/assets/images/rdme-img/earlydeployment.png)
+![Site Example](/assets/images/rdme-img/deployment.png)
 
 - - - -
 # Sources #
@@ -306,8 +304,10 @@ How I deployed this site :
 ## Media
  - The images that were usedn throughout the project were all used from the site https://www.pexels.com/
  - I went through a range of images until I decided on the correct ones, I wanted to get the right feel for the site so this was very important. I decided to use all images of a certain type. 
- - The following photos were used in the content: [Content Section sources.docx](https://github.com/IsaacNicholls1/MH-P1-IsaacN/tree/main/assets/images)
+ - The following photos were used in the content: [Content Section sources](https://github.com/IsaacNicholls1/MH-P1-IsaacN/tree/main/assets/images)
  - Some images were edited with: https://squoosh.app/editor - this was to reduce their size and get them the correct shape, therefore providing a better UX when visiting the site.
+- The following websites have been used as links to visit from the images on my site. 
+[Weblinks](/assets/images/weblinks.png)
 
 ## HomePage Content. 
 -  I wanted to keep Homepage content to a minumum as I was aiming for a calm and easy user experience, so i felt that I didnt want to provide over stimulating information to the user. 
