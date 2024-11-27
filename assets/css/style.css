@@ -31,7 +31,7 @@ h1 h2 h3 h4 h5 h6{
 
 #navbar {
     background-color: var(--primary-color);
-    color: rgb(12, 12, 131);
+    color: rgb(10, 10, 80);
     width: 100%;
     position: fixed;
 }
