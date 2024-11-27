@@ -1,48 +1,43 @@
 
-# PROJECT NAME TO GO HERE
+# Let's Talk - Mens Mental Health
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
+This Website was built by Isaac Nicholls for Code Institute. The brief for the site was Mental health awareness. After some research I decided to tailor the site to Mental health awareness for men specifically as this is also a topic quite pertinant to me. This meant that I could better understand user goals and also the content of what I wanted to go into the site. 
 
-Add a Blurb about the site here, what does it do, why did you build it?
+👩🏻‍💻 Here is an example of this website and its homepage ![Am I Responsive](/assets/images/rdme-img/responsivehome.png)
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
-
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
-
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
+Link to deployed and finished site: https://isaacnicholls1.github.io/MH-P1-IsaacN/
 
 ---
 
 ## CONTENTS
 
-* [User Experience](#user-experience-ux)
+* [Project](#project-goals)
+
+* [Features](#features)
+
+* [Ux-Ui](#ux/ui)
   * [User Stories](#user-stories)
 
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
+  * [Fonts](#fonts)
   * [Wireframes](#wireframes)
-
-* [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
-  * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
-
-* [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-  * [Deployment](#deployment)
+  * [Logo](#logo)
 
 * [Testing](#testing)
+  * [Acessibility](#accessibility)
+  * [Responsivity](#responsivity)
+  * [Device Testing](#device-testing)
+  * [Testing Breakdown](#testing-breakdown)
+  * [Testing User Stories](#testing-user-stories)
 
-* [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
+* [Known Bugs](#known-bugs)
+  * [Deployment](#deployment)
+
+* [Sources](#sources)
+
+  * [Future features](#future-features)
   * [Acknowledgments](#acknowledgments)
-
----
 
 - - - -
 # Project Goals #
@@ -85,7 +80,7 @@ This page is a simple contact form page with a header and the chance to get in c
 - - - -
 # UX/UI #
 
-   ## 1. Target Audience
+   ## Target Audience
    
   - Males in the 18-40 age bracket
   - People struggling with mental health issues and looking for help or guidance
@@ -93,7 +88,7 @@ This page is a simple contact form page with a header and the chance to get in c
   
   - Family or partners of males who are struggling with their mental health. 
 
- ## 2. User Stories
+ ## User Stories
   - As a first time user, I want a navbar to easily navigate to the content I want.
   - As a first time user, I want an introduction, blurb or image to easily understand the main purpose of the site.
   - As a first time user, I want to access a variety of mental health resources tailored for men so that I can find information and support relevant to my needs.
@@ -107,12 +102,12 @@ This page is a simple contact form page with a header and the chance to get in c
   - As a site owner, I want users to be able to find out more about the information and respective websites easily
   - As a site owner, I want to display engaging images which will lead to being clicked on and taken to other sites and help. 
 
-## 3. Why I chose this particular topic 
+## Why I chose this particular topic 
 
   - I specifically researched and wanted to target the particular audience of males struggling with mental health issues, as it was of particular importance and relevance to me as my best friend suffers from this and tried to commit suicide recently. This gave me a very good idea of the target audience and what help or information they may need within the site. 
 - - - -
 
- ## 2. Design Choice
+ ## Design
  
  ##  Colour Scheme
 
@@ -123,7 +118,7 @@ This page is a simple contact form page with a header and the chance to get in c
 ![Colours](/assets/images/rdme-img/cooloersINP1.png)
  
  ##  Fonts
- - Poppins
+ - The font that was used in the end was Poppins - this was after trying out one font which was a Serif style font, however this was too clinical as i was looking for a more calming user feel and experience. 
  
  ## Wireframes
 
@@ -157,23 +152,34 @@ This page is a simple contact form page with a header and the chance to get in c
 
 ## HTML Validation
 - Initial HTML Validation was performed using the W3C Mark up service and the results can be found in this document. 
-- The issue has been resolved.
 - No Issues with any of the pages.
+
+![html1](/assets/images/rdme-img/testinghtml.png)
+![html2](/assets/images/rdme-img/testinghtml2.png)
+![html3](/assets/images/rdme-img/testinghtml3.png)
+![html4](/assets/images/rdme-img/textinghtml4.png)
   
 ## CSS Validation
 - Initial W3C CSS style sheet validation link 
-- Test W3C Validation CSS style sheet validation 
-- The style.css form passed with only one issue that was with a newer feature that some browsers do not support just yet. We have left this in as the browsers still work as intended.
-
+![Css1](/assets/images/rdme-img/testingcss1.png)
+- Test W3C Validation CSS style sheet validation with css error fixed. 
+![Css2](/assets/images/rdme-img/testingcss2.png)
+ 
 ## Accessibility
- - I tested the page with lighthouse and the accessibility and performance scores came out at ......
- - I improved these by 
+ - I tested the page with lighthouse and the accessibility and performance scores came out at ...
+ ![lighthouse scores](/assets/images/rdme-img/)
+ - I improved these by following the prompts, but mainly by resizing my images (especially the hero images) as these were slowing the site loading down. This greatly increased my lighthouse scores. 
+ ![lighthouse scores final](/assets/images/rdme-img/)
 
 ## Responsivity
 - I tested the website with DevTools so that it worked across all different device sizes, including mobile and tablet. This is very important as it must be functional across all types of devices. There were some issues with this as noted in the testing section, but all were sorted out before the final checks. 
 
-**Responsive site**
-![Am I Responsive](/assets/images/rdme-img/responsive.png)
+I checked the site was responsive across all devices. Orinignally i had a problem with the navbar becoming too small and squashed when pushed into a mobile device so i fixed this and with more testing i resolved the issue. I had the same issues with the images resizing themselves but managed to edit and sort these problems. Below are examples of the responsive site across all four pages. 
+
+![Am I Responsive home](/assets/images/rdme-img/responsivehome.png)
+![Am I Responsive connect](/assets/images/rdme-img/responsiveconnect.png)
+![Am I Responsive your course](/assets/images/rdme-img/responsiveyourcourse.png)
+![Am I Responsive contact](/assets/images/rdme-img/responsivecontact.png)
 
 ## Device Testing
 
@@ -320,7 +326,7 @@ How I deployed this site :
 - I utilised AI in this project in the form of CoPilot. This helped me to create basic HTML structures and to edit parts of code that needed it. I found it very useful overall and saved me a great deal of time, however I found when using, it needed a close eye kept on it as it seems to add in exra closing tags and code that is sometimes not needed. Overall a very useful tool when used in the correct context. 
 
 
-# What could I add for future features? #
+# Future features #
 - If i had more time for this project i wopuld have liked to add another "About Us" page, which i think would have been useful to the site visitor and would explain a little more about what we do. 
 - I would have liked to add an email button at the bottom of each page for the user to enter their email and receive a monthly newsletter. 
 - I would have liked to possibly implement some more texture to the background using https://www.transparenttextures.com/, however this is something that I have not looked into so would have needed a bit more time to learn and implement. 
